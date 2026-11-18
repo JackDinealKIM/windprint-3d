@@ -285,7 +285,7 @@ svg[data-sel] .unit.on { opacity: 1; }
 
     <section class="wp-table" aria-label="배출원 기여도">
       <table>
-        <thead><tr><th>배출원</th><th>방위·거리</th><th>기여 확률</th><th>역방향 입자</th></tr></thead>
+        <thead><tr><th>배출원</th><th>방위·거리</th><th>기여 확률</th><th>정렬도</th></tr></thead>
         <tbody id="rows"></tbody>
       </table>
       <div class="wp-sum">
@@ -2593,7 +2593,7 @@ return { dot3, add3, sub3, mul3, len3, unit3, cross3, lerp3, viewOf, lightOf, sc
   stage.innerHTML = plateHtml({
     fig: "Fig 03",
     title: "역추적 흡입대",
-    hint: "부품에 올려 보세요 · 끌어서 풍향",
+    hint: "부품에 올려 보세요 · ←→ 풍향",
     readout: "풍향 290° · 기여 50·37·13%",
     keys: [
       { mark: "raised", label: "구조·배관: 매니폴드, 헤더관, 배출원 지관" },
